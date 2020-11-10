@@ -1,35 +1,35 @@
 class Portamonete:
     
-    def __init__(self,lista_monete,capienza_max):
+    def __init__(self,capienza_max):
         self.lista_moneta= []
-        self.capienza_max = 8
+        self.capienza_max = capienza_max
         
     def insertMoneta(self):
-        somma = 0
-        if self.lista_moneta + moneta1 + moneta2 + moneta3 < 8:
-            somma= somma + moneta1 + moneta2 + moneta3
-        else:
-            print ('Fermati!')
+      
+  
+        if len(self.lista_moneta) < len(self.capienza_max):
+            self.lista_moneta.append(moneta)
+            
+       
             
         
     def removeMoneta (self):
-        differenza = self.lista_moneta - moneta1
-        return (moneta1)
+        if n in lista_monete == moneta:
+            moneta= lista_monete.pop(moneta)
+        
+            
     
     def countMoneta (self):
-        for n in self.lista_moneta:
-            print ('il  numero di monete è '+ n) 
+            print ( len(self.lista_monete)) 
             
     def countValori (self):
         somma = 0
-        for n in self.lista:
-            somma=somma + n
-        print ('la somma nel portamonete è'+ somma)
+        for n in self.lista_moneta:
+            somma=somma + n.valore
+        return somma
     
     def empty (self):
-        svuota = self.lista[0]
-        for n in self.lista:
-            svuota= svuota - n
+        self.lista_monete = []
             
 class Monete:
 
