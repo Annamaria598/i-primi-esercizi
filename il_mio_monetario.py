@@ -14,13 +14,14 @@ class Portamonete:
             
         
     def removeMoneta (self):
-        if n in lista_monete == moneta:
-            moneta= lista_monete.pop(moneta)
+        if n in len (self.lista_moneta) == moneta:
+            moneta= lista_moneta.pop(moneta)
+            return moneta
         
             
     
     def countMoneta (self):
-            print ( len(self.lista_monete)) 
+           return ( len(self.lista_moneta)) 
             
     def countValori (self):
         somma = 0
@@ -29,7 +30,7 @@ class Portamonete:
         return somma
     
     def empty (self):
-        self.lista_monete = []
+        self.lista_moneta = []
             
 class Monete:
 
